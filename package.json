@@ -1,8 +1,4 @@
 {
   "name": "mi-proyecto",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "vite build" // 
-  },
-  ...
+  "version": "1.0.0"
 }

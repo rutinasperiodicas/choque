@@ -1,0 +1,7 @@
+{
+  "name": "worker-name", // puedes ponerle el nombre de tu proyecto
+  "compatibility_date": "2025-04-22", // asegúrate de que sea la fecha actual o posterior
+  "assets": {
+    "directory": "./dist" // la ruta a tu carpeta de assets
+  }
+}
